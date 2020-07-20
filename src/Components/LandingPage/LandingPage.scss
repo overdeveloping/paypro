@@ -1,0 +1,79 @@
+//Colours
+
+$red: #e74c3c;
+$blue: #3498db;
+$yellow:#2ecc71;
+$purple: #8e44ad;
+$turquoise: #1abc9c;
+
+// Reset and Layout Styles
+
+
+
+footer{
+  font-family: 'Source Sans Pro', sans-serif;
+  padding: 2rem;
+  padding-bottom: 2rem;
+  margin-top: 2rem;
+  
+  color: white;
+  background-color: #051937;
+}
+
+.footer-links{
+  color:white;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.footer-links:hover{
+
+  text-decoration: none;
+  color:#8c8c8c;
+}
+section{
+    margin: 50px;
+}
+
+.feature{
+  border: none;
+}
+
+.btn{
+  
+    
+}
+
+
+
+.btn-try {
+  box-sizing: border-box;
+    appearance: none;
+    border: 2px solid ;
+    border-radius: 0.6em;
+    align-self: center;
+    font-size: 1.5rem;
+     font-weight: 400;
+     margin: 20px;
+    padding: 0.5em 0.5em;
+    text-decoration: none;
+    text-align: center;
+   
+
+  border-color: $yellow;
+  color: rgb(48, 120, 226);
+ 
+  
+  background: {
+    image: linear-gradient(45deg,$yellow 50%, transparent 50%);
+    position: 100%;
+    size: 400%;
+  }
+  transition: background 300ms ease-in-out;
+  
+  &:hover {
+    background-position: 0;
+  }
+}
+
+
